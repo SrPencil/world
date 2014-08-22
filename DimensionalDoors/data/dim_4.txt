@@ -1,0 +1,71 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 4,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 3,
+  "PackDepth": 0,
+  "ParentID": 3,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 50,
+    "IsOpen": false,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/Trap_SK-TrappedStairsDown_Closed_50.schematic",
+    "SchematicName": "Trap_SK-TrappedStairsDown_Closed_50",
+    "DungeonTypeName": "TRAP",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": -567,
+    "y": 64,
+    "z": 252
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": -567,
+        "y": 64,
+        "z": 252,
+        "dimension": 4
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -496,
+          "y": 64,
+          "z": 277,
+          "dimension": 3
+        },
+        "linkType": 7
+      },
+      "orientation": 0,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -595,
+        "y": 50,
+        "z": 252,
+        "dimension": 4
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 2,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

@@ -13,13 +13,16 @@
     "z": 0
   },
   "Orientation": 0,
-  "ChildIDs": [],
+  "ChildIDs": [
+    2,
+    5
+  ],
   "Links": [
     {
       "source": {
-        "x": -10,
-        "y": 70,
-        "z": 23,
+        "x": -285,
+        "y": 86,
+        "z": 213,
         "dimension": 0
       },
       "parent": {
@@ -28,6 +31,72 @@
         "z": -1
       },
       "tail": {
+        "linkType": 2
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -258,
+        "y": 66,
+        "z": 290,
+        "dimension": 0
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -164,
+        "y": 64,
+        "z": 290,
+        "dimension": 0
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -251,
+          "y": 64,
+          "z": 292,
+          "dimension": 2
+        },
+        "linkType": 2
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -122,
+        "y": 65,
+        "z": 266,
+        "dimension": 0
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -156,
+          "y": 65,
+          "z": 273,
+          "dimension": 5
+        },
         "linkType": 2
       },
       "orientation": 2,
